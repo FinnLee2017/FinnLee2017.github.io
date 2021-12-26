@@ -1,0 +1,28 @@
+{
+  "name": "roadmap",
+  "version": "2.0.21",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs && node build/build.js",
+    "commit": "sh commit.sh",
+    "vercel-build": "yum install libuuid-devel libmount-devel && cp /lib64/{libuuid,libmount,libblkid}.so.1 node_modules/canvas/build/Release/ && npm run build"
+  },
+  "devDependencies": {
+    "vuepress-vite": "^2.0.0-beta.27"
+  },
+  "dependencies": {
+    "@vuepress/plugin-debug": "^2.0.0-beta.27",
+    "@vuepress/plugin-docsearch": "^2.0.0-beta.27",
+    "@vuepress/plugin-search": "^2.0.0-beta.27",
+    "fabric": "3.6.3",
+    "lodash": "^4.17.21",
+    "ua-parser-js": "^1.0.2"
+  },
+  "binary": {
+    "host": "https://www.npmjs.com/package/node-pre-gyp",
+    "module_name": "x",
+    "module_path": "。、"
+  }
+}

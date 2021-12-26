@@ -1,0 +1,1 @@
+const e={key:"v-0b563763",path:"/fe/hot.html",title:"\u70ED\u95E8\u6280\u672F",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:2,title:"\u7CBE\u54C1\u6587\u7AE0",slug:"\u7CBE\u54C1\u6587\u7AE0",children:[]},{level:2,title:"\u514D\u8D39\u89C6\u9891",slug:"\u514D\u8D39\u89C6\u9891",children:[]}],git:{updatedTime:null},filePathRelative:"fe/hot.md"};export{e as data};
